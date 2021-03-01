@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+:root {
+    --bg-primary: #1f74ff
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+
+.theme-light {
+    --bg-background-primary: #fff;
+    --bg-background-secondary: #edf2f7;
+    --bg-background-ternary: #cbd5e0;
+    --bg-background-sidebar: #202429;
+    --text-primary: #16161d;
+    --text-secondary: #1c1d1f;
+    --text-ternary: #191919;
+}
+
+.theme-dark {
+    --bg-background-primary: #202429;
+    --bg-background-secondary: #1c1d1f;
+    --bg-background-ternary: #16161d;
+    --bg-background-sidebar: #202429;
+    --text-primary: #f2f2f2;
+    --text-secondary: #edf2f7;
+    --text-ternary: #e2e8f0;
+}
+
+.content-wrapper {
+    transition: ease-in-out 0.6s;
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition-property: opacity;
+    transition-timing-function: ease-in-out;
+    transition-duration: 200ms;
+}
+
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}

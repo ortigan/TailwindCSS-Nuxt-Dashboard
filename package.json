@@ -1,0 +1,34 @@
+{
+    "name": "Ortigan-Nuxt-TailwindCSS-Dashboard",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@animxyz/vue": "^0.4.1",
+        "@nuxtjs/auth": "^4.9.1",
+        "@nuxtjs/axios": "^5.13.1",
+        "@nuxtjs/dayjs": "^1.3.0",
+        "@nuxtjs/pwa": "^3.3.5",
+        "@tailwindcss/forms": "^0.2.1",
+        "epic-spinners": "^1.1.0",
+        "nuxt": "^2.15.0",
+        "nuxt-compress": "^4.1.0",
+        "vee-validate": "^3.3.9",
+        "vue-scrollto": "^2.20.0",
+        "vue-toastification": "^1.7.11"
+    },
+    "devDependencies": {
+        "@nuxtjs/dotenv": "^1.4.1",
+        "@nuxtjs/tailwindcss": "^3.4.2",
+        "autoprefixer": "^9.8.5",
+        "node-sass": "^4.14.1",
+        "postcss": "^7.0.32",
+        "sass-loader": "^10.1.1",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
+    }
+}
